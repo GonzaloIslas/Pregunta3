@@ -17,38 +17,20 @@ namespace Tesis.Repository
             _context = context;
         }
 
-        //public List<Question> GetQuestions(CategoryType type)
-        //{
-        //    var query = @"SELECT [QuestionID]
-        //                        ,[QuestionName]
-        //                        ,[FinalInfo]
-        //                        ,[CategoryType]
-        //                    FROM [tesis].[dbo].[question]
-        //                    Where [CategoryType] = @CategoryType";
-        //    using (var connection = _context.CreateConnection())
-        //    {
-        //        var companies = connection.Query<Question>(query, new { type });
-        //        return companies.ToList();
-        //    }
-        //}}
-
         public List<Question> GetQuestions(CategoryType type)
         {
-            var id = 40;
-
             var query = @"SELECT [QuestionID]
                                 ,[QuestionName]
                                 ,[FinalInfo]
                                 ,[CategoryType]
                             FROM [tesis].[dbo].[question]
-                            Where [QuestionID] = @id";
+                            Where [CategoryType] = @type";
             using (var connection = _context.CreateConnection())
             {
-                var companies = connection.Query<Question>(query, new { id });
+                var companies = connection.Query<Question>(query, new { type });
                 return companies.ToList();
             }
         }
-
 
         public List<Question> GetQuestions()
         {

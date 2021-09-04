@@ -16,7 +16,6 @@ namespace Tesis.Repository
             _context = context;
         }
 
-
         public List<Answer> GetAnswers(int questionId)
         {
             var query = @"SELECT [QuestionID]

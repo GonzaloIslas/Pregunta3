@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Tesis.Utilities.Enums
+﻿namespace Tesis.Utilities.Enums
 {
     public enum CategoryType
     {
-        sexo = 1,
-        drogas =2
+        AdivinaQue = 1,
+        Diversidades = 2,
+        PromocionYPrevencionDeEnfermedades = 3,
+        Derechos = 4,
+        ProyectoEsi= 5,
+        SaludYAutoconocimiento = 6,
     }
 }

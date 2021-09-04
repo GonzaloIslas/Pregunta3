@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Tesis.Repository.Entity;
 using Tesis.Repository.Interface;
 using Tesis.Service.Interface;

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Tesis.Repository.Entity;
 using Tesis.Repository.Interface;
 using Tesis.Service.Interface;
