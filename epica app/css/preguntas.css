@@ -1,0 +1,81 @@
+/*@media only screen and (max-width:520px){*/
+    #body{
+        background-color:#A9283D;
+    }
+    .titulo{
+        font-family: 'Bungee Inline', cursive;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: 15px;
+        
+    }
+    .preguntayrespuesta{
+        
+        border-radius: 10%;
+        background-color: #C9A0D0;
+        padding: 100px;
+        border: solid #650B75 2px;
+        position: absolute;
+        top: 165px;
+        font-family: "Exo 2", sans-serif;;
+        text-align: center;
+    }
+    .pregunta{
+        border-radius: 50%;
+        background-color: blueviolet;
+        border: #4D075A solid 3px;
+        padding: 20px;
+        position: relative;
+        top: -50px;
+        text-align: center;
+    }
+    .respuestas{
+        text-align: center;
+        border-radius: 10%;
+        background-color: orange;
+        border:#B78B06 solid 3px;
+        padding: 20px 40px;
+        text-decoration: none;
+    }
+    .lista{
+        list-style: none;
+        width: 70%;
+        
+    }
+    .boton{
+        
+        position: relative;
+        left: -50px;
+        width: 150%;
+        padding: 5px;
+        background-color: black;
+        color: blanchedalmond;
+        border-radius: 7px;
+        border: white 2px solid;
+    }
+    .listainterna{
+        padding: 5px;
+        position: relative;
+        left: 4%;
+    }
+    #detail{
+       font-weight: bold; 
+       text-align: justify;
+       position: relative;
+       top: 30px;
+       font-family: "Exo 2", sans-serif;;
+    }
+
+    #volver{
+        background-color: red;
+        position: relative;
+        top: 55px;
+        color: white;
+        font-family: 'Bungee Inline', cursive;
+        cursor: pointer;
+    }
+
+
+
+

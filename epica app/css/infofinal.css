@@ -1,0 +1,23 @@
+@media only screen and (max-width:520px){
+    #body{
+        background-color:#A9283D;
+    }
+    .titulo{
+        font-family: 'Bungee Inline', cursive;
+        font-size: 40px;
+        position: absolute;
+        left: 20%;
+    }
+    .info{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 50px;
+        border: solid blue 3px;
+        position: relative;
+        top: 150px;
+        height: 300px;
+    }
+ 
+
+
+
+}
